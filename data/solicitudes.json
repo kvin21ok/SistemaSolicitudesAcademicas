@@ -1,0 +1,37 @@
+{
+    "estudiantes": [
+        {
+            "id": 1,
+            "nombre": "Juan Perez",
+            "legajo": "1001"
+        },
+        {
+            "id": 2,
+            "nombre": "Maria Gomez",
+            "legajo": "1002"
+        }
+    ],
+    "responsables": [
+        {
+            "id": 1,
+            "nombre": "Administracion",
+            "area": "Administracion"
+        },
+        {
+            "id": 2,
+            "nombre": "Soporte Tecnico",
+            "area": "Informatica"
+        }
+    ],
+    "solicitudes": [
+        {
+            "id": 1,
+            "estudiante_id": 1,
+            "tipo": "Academica",
+            "descripcion": "solicitud de equivalencia de materia",
+            "prioridad": "Alta",
+            "estado": "En proceso",
+            "responsable_id": 1
+        }
+    ]
+}
