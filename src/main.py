@@ -1,4 +1,6 @@
 from sistema import SistemaSolicitudes
 
-sistema = SistemaSolicitudes()
-sistema.iniciar()
+
+if __name__ == "__main__":
+    sistema = SistemaSolicitudes()
+    sistema.iniciar()
